@@ -5,7 +5,7 @@ import path from "path";
 
 
 
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 const DATA_FILE = path.join("data", "links.json");
 
 
